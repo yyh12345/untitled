@@ -11,8 +11,8 @@ public class Servlet extends javax.servlet.http.HttpServlet {
             throws javax.servlet.ServletException, IOException {
        String id =  request.getParameter("id");
         String password =  request.getParameter("password");
-        System.out.println(id);
-        System.out.println(password);
+//        System.out.println(id);
+//        System.out.println(password);
         UserDAOImpl  userDAOImpl = new UserDAOImpl();
 
       //  PrintWriter out = response.getWriter();
@@ -24,7 +24,7 @@ public class Servlet extends javax.servlet.http.HttpServlet {
 
             }else{
                     System.out.println("µÇÂ¼Ê§°Ü");
-
+                    
             }
 
         } catch (SQLException e) {
