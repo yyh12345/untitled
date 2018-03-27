@@ -1,13 +1,13 @@
 package model;
 
 public class Factory {
-    private String facid;               //¹¤³§±àºÅ
-    private String facname;         //¹¤³§Ãû³Æ
-    private  int faccount;        //Éú²ú°à×é×éÊı
+    private String facid;               //å·¥å‚ç¼–å·
+    private String facname;         //å·¥å‚åç§°
+    private  int faccount;        //ç”Ÿäº§ç­ç»„ç»„æ•°
 
-    //Factory_Id	Varchar(10)	Not Null	Ö÷¼ü	¹¤³§±àºÅ
-    //Factory_Name	Varchar(25)	Not Null	ÎŞ	¹¤³§Ãû³Æ
-    //Factory_TeamCount	Smallint(3)	Not Null	ÎŞ	Éú²ú°à×é×éÊı
+    //Factory_Id	Varchar(10)	Not Null	ä¸»é”®	å·¥å‚ç¼–å·
+    //Factory_Name	Varchar(25)	Not Null	æ— 	å·¥å‚åç§°
+    //Factory_TeamCount	Smallint(3)	Not Null	æ— 	ç”Ÿäº§ç­ç»„ç»„æ•°
 
     public Factory() {
     }

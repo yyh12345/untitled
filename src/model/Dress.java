@@ -1,14 +1,14 @@
 package model;
 
 public class Dress {
-    //Dress_Id	Varchar(25)	Not Null	主键	款号
-    //Style_Detailed	Varchar(25)	Not Null	外键	款式细分
-    //Team_Name	Varchar(25)	Not Null	外键	生产班组小组名称
-    //Client_Id	varchar(20)	Not Null	外键	客户编号
-    private String did;                       //款号
-    private String sdetailed;           //款式细分
-    private String tname;               //生产班组小组名称
-    private String cid;                     //	客户编号
+    //Dress_Id	Varchar(25)	Not Null	涓婚敭	娆惧彿
+    //Style_Detailed	Varchar(25)	Not Null	澶栭敭	娆惧紡缁嗗垎
+    //Team_Name	Varchar(25)	Not Null	澶栭敭	鐢熶骇鐝粍灏忕粍鍚嶇О
+    //Client_Id	varchar(20)	Not Null	澶栭敭	瀹㈡埛缂栧彿
+    private String did;                       //娆惧彿
+    private String sdetailed;           //娆惧紡缁嗗垎
+    private String tname;               //鐢熶骇鐝粍灏忕粍鍚嶇О
+    private String cid;                     //	瀹㈡埛缂栧彿
 
     public Dress() {
     }

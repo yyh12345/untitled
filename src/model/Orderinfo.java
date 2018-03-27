@@ -3,18 +3,18 @@ package model;
 import java.sql.Date;
 
 public class Orderinfo {
-    private String did;                            ///主键	款号
-    private Date online;                         //  主键  上线时间
-    private int  quantity;                        //生产数量
-    private  double iE_Price;                //IE工价
-    private double   facdirector;	      //	厂长确认系数
-    private double  cdirector;	              //	客户系数
-    private double strdirector	;         //	数量结构系数
-    private double teamnumber;     //	小组人数
-    private Date offline;                       //下线时间
-    private  double days;                    //	生产天数
-    private double partime;	            //分析时间
-    private double  videotime;         //视频时间
+    private String did;                            ///涓婚敭	娆惧彿
+    private Date online;                         //  涓婚敭  涓婄嚎鏃堕棿
+    private int  quantity;                        //鐢熶骇鏁伴噺
+    private  double iE_Price;                //IE宸ヤ环
+    private double   facdirector;	      //	鍘傞暱纭绯绘暟
+    private double  cdirector;	              //	瀹㈡埛绯绘暟
+    private double strdirector	;         //	鏁伴噺缁撴瀯绯绘暟
+    private double teamnumber;     //	灏忕粍浜烘暟
+    private Date offline;                       //涓嬬嚎鏃堕棿
+    private  double days;                    //	鐢熶骇澶╂暟
+    private double partime;	            //鍒嗘瀽鏃堕棿
+    private double  videotime;         //瑙嗛鏃堕棿
 
     public Orderinfo() {
     }

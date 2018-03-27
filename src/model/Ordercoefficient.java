@@ -5,9 +5,9 @@ import java.sql.Date;
 public class Ordercoefficient {
     private double did;
     private Date online;
-    private double coereality;          //¼ÓÏµÊıÊµ¼Ê²úÁ¿´ï³ÉÂÊ
-    private double uninyield;           //Î´¼ÓÏµÊı²úÁ¿´ï³ÉÂÊ
-    private double coetarget;           //¼ÓÏµÊı²úÁ¿Ä¿±ê´ï³ÉÂÊ
+    private double coereality;          //åŠ ç³»æ•°å®é™…äº§é‡è¾¾æˆç‡
+    private double uninyield;           //æœªåŠ ç³»æ•°äº§é‡è¾¾æˆç‡
+    private double coetarget;           //åŠ ç³»æ•°äº§é‡ç›®æ ‡è¾¾æˆç‡
 
     public Ordercoefficient() {
     }

@@ -1,10 +1,10 @@
 package model;
 
 public class Detailed {
-    //Style_Detailed	Varchar(25)	Not Null	Ö÷¼ü	¿îÊ½Ï¸·Ö
-    //Style	Varchar(25)	Not Null	ÎŞ	¿îÊ½
-    private String sdetailed;           //¿îÊ½Ï¸·Ö
-    private String style;                   //¿îÊ½
+    //Style_Detailed	Varchar(25)	Not Null	ä¸»é”®	æ¬¾å¼ç»†åˆ†
+    //Style	Varchar(25)	Not Null	æ— 	æ¬¾å¼
+    private String sdetailed;           //æ¬¾å¼ç»†åˆ†
+    private String style;                   //æ¬¾å¼
 
     public Detailed() {
     }

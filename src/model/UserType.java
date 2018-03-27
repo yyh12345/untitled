@@ -1,11 +1,11 @@
 package user;
 
 public class UserType {
-    private int grade;             //È¨ÏŞµÈ¼¶
-    private String  classify;       //È¨ÏŞ·ÖÀà
+    private int grade;             //æƒé™ç­‰çº§
+    private String  classify;       //æƒé™åˆ†ç±»
 
-    //Grade	tinyint(3)	Not null	Ö÷¼ü	È¨ÏŞµÈ¼¶
-    //Classify	varchar(10)	Not null	ÎŞ	È¨ÏŞ·ÖÀà
+    //Grade	tinyint(3)	Not null	ä¸»é”®	æƒé™ç­‰çº§
+    //Classify	varchar(10)	Not null	æ— 	æƒé™åˆ†ç±»
 
     public UserType() {
     }

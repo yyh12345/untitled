@@ -1,12 +1,12 @@
 package model;
 
 public class Client {
-    private String cid;                     //¿Í»§±àºÅ
-    private String cname;               //¿Í»§Ãû³Æ
-    private String crank;                   //¿Í»§¼¶±ğ
-    //Client_Id	varchar(20)	Not Null	Ö÷¼ü	¿Í»§±àºÅ
-    //Client_Name	varchar(25)	Not Null	ÎŞ	¿Í»§Ãû³Æ
-    //Client_Rank	varchar(2)	Not Null	ÎŞ	¿Í»§¼¶±ğ
+    private String cid;                     //å®¢æˆ·ç¼–å·
+    private String cname;               //å®¢æˆ·åç§°
+    private String crank;                   //å®¢æˆ·çº§åˆ«
+    //Client_Id	varchar(20)	Not Null	ä¸»é”®	å®¢æˆ·ç¼–å·
+    //Client_Name	varchar(25)	Not Null	æ— 	å®¢æˆ·åç§°
+    //Client_Rank	varchar(2)	Not Null	æ— 	å®¢æˆ·çº§åˆ«
 
     public Client() {
 

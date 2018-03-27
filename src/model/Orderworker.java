@@ -4,21 +4,21 @@ import java.sql.Date;
 
 public class Orderworker {
 
-    private String did;                                 //Ö÷¼ü	¿îºÅ
-    private Date online;                             //  Ö÷¼ü  ÉÏÏßÊ±¼ä
-    private double perdaily;                    //	ÈË¾ùÈÕ²úÁ¿
-    private double coefficient;                //	¼ÓÏµÊı¹¤¼Û
-    private double avedaily;	                 //ÎŞ	Æ½¾ùÈÕ²úÁ¿
-    private double  adddaily;                  //	¼ÓÏµÊı·ÖÎöÈÕ²úÁ¿
-    private double  anadaily;                   	//	·ÖÎöÈÕ²úÁ¿
-    private int pltime;                                  //	ÎŞ	¼ÓÏµÊı·ÖÎöÊ±¼ä
-    private int timecons;                           //	Êµ¼ÊÃ¿¿îºÄÊ±
-    private int nocoeanalysis;	            //¸÷¿îÎ´¼ÓÏµÊı·ÖÎö×ÜÊ±¼ä
-    private int addcoeanalysis;                 	//¸÷¿î¼ÓÏµÊı·ÖÎö×ÜÊ±¼ä
-    private int acproducttime;                      //¸÷¿îÊµ¼ÊÉú²ú×ÜÊ±¼ä
-    private double timecomrate;	            //Ê±¼ä´ï³ÉÂÊ
-    private double totalwages ;             //	ºÏ¼Æ¹¤×Ê
-    private double avesalary;		       //Æ½¾ù¹¤×Ê
+    private String did;                                 //ä¸»é”®	æ¬¾å·
+    private Date online;                             //  ä¸»é”®  ä¸Šçº¿æ—¶é—´
+    private double perdaily;                    //	äººå‡æ—¥äº§é‡
+    private double coefficient;                //	åŠ ç³»æ•°å·¥ä»·
+    private double avedaily;	                 //æ— 	å¹³å‡æ—¥äº§é‡
+    private double  adddaily;                  //	åŠ ç³»æ•°åˆ†ææ—¥äº§é‡
+    private double  anadaily;                   	//	åˆ†ææ—¥äº§é‡
+    private int pltime;                                  //	æ— 	åŠ ç³»æ•°åˆ†ææ—¶é—´
+    private int timecons;                           //	å®é™…æ¯æ¬¾è€—æ—¶
+    private int nocoeanalysis;	            //å„æ¬¾æœªåŠ ç³»æ•°åˆ†ææ€»æ—¶é—´
+    private int addcoeanalysis;                 	//å„æ¬¾åŠ ç³»æ•°åˆ†ææ€»æ—¶é—´
+    private int acproducttime;                      //å„æ¬¾å®é™…ç”Ÿäº§æ€»æ—¶é—´
+    private double timecomrate;	            //æ—¶é—´è¾¾æˆç‡
+    private double totalwages ;             //	åˆè®¡å·¥èµ„
+    private double avesalary;		       //å¹³å‡å·¥èµ„
 
     public Orderworker() {
 

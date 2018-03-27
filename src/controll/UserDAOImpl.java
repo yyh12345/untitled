@@ -8,7 +8,7 @@ public class UserDAOImpl implements UserDAO{
 
 
     @Override
-    public boolean isLand(String id, String password) throws SQLException{//true£ºµÇÂ¼³É¹¦¡®¡¯
+    public boolean isLand(String id, String password) throws SQLException{//trueï¼šç™»å½•æˆåŠŸâ€˜â€™
                       if(GetData.getUserinfo().get(0).equals(id)&&GetData.getUserinfo().get(1).equals(password)) {
                               return true;
                       }
@@ -17,13 +17,13 @@ public class UserDAOImpl implements UserDAO{
     @Override
     public int getGrade(String id) throws SQLException{
        if (id.substring(4,5).equals("1")){
-           return 1;//¹ÜÀíÔ±
+           return 1;//ç®¡ç†å‘˜
        }else if(id.substring(4,5).equals("2")){
-           return 2;//·ÖÎöÔ±
+           return 2;//åˆ†æå‘˜
        }else if(id.substring(4,5).equals("3")){
-           return 3;//²é¿´Ô±
+           return 3;//æŸ¥çœ‹å‘˜
        }
-        return -1;//¸ÃÓÃ»§²»´æÔÚ
+        return -1;//è¯¥ç”¨æˆ·ä¸å­˜åœ¨
     }
 
 

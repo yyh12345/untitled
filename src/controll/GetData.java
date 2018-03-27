@@ -36,7 +36,7 @@ public class GetData {
     }
 
     public static int geCurrentYear(){
-        Calendar c = Calendar.getInstance();//可以对每个时间域单独修改
+        Calendar c = Calendar.getInstance();//鍙互瀵规瘡涓椂闂村煙鍗曠嫭淇敼
         int year = c.get(Calendar.YEAR);
         System.out.println(year);
         return year;

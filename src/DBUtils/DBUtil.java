@@ -21,7 +21,7 @@ public class DBUtil {
             username = "root";
             password = "mysql123";
         } catch (Exception e) {
-            System.out.println("Êı¾İ¿âÁ¬½ÓÒì³£");
+            System.out.println("æ•°æ®åº“è¿æ¥å¼‚å¸¸");
             e.printStackTrace();
         }
     }

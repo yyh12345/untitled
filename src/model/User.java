@@ -6,19 +6,19 @@ import java.sql.Time;
 import java.util.Date;
 
 public class User {
-    private String id ;                     //ÕËºÅ
-    private int grade;                    //È¨ÏŞµÈ¼¶
-    private String password;        //ÃÜÂë
-    private Date time;                  //×¢²áÊ±¼ä
-    private String name;              //êÇ³Æ
-    private String status;              //µÇÂ¼×´Ì¬
+    private String id ;                     //è´¦å·
+    private int grade;                    //æƒé™ç­‰çº§
+    private String password;        //å¯†ç 
+    private Date time;                  //æ³¨å†Œæ—¶é—´
+    private String name;              //æ˜µç§°
+    private String status;              //ç™»å½•çŠ¶æ€
 
-//    User_Id	varchar(10)	Not null	Ö÷¼ü	ÕËºÅ
-//    User_Grade	tinyint(3)	Not null	Íâ¼ü	È¨ÏŞµÈ¼¶
-//    Password varchar(16)	Not null	ÎŞ	ÃÜÂë
-//    Time datetime	Not null	ÎŞ	×¢²áÊ±¼ä
-//    User_Name	varchar(10)	Null	ÎŞ	êÇ³Æ
-//    User_Status	varchar(10)	Not null	ÎŞ	µÇÂ¼×´Ì¬
+//    User_Id	varchar(10)	Not null	ä¸»é”®	è´¦å·
+//    User_Grade	tinyint(3)	Not null	å¤–é”®	æƒé™ç­‰çº§
+//    Password varchar(16)	Not null	æ— 	å¯†ç 
+//    Time datetime	Not null	æ— 	æ³¨å†Œæ—¶é—´
+//    User_Name	varchar(10)	Null	æ— 	æ˜µç§°
+//    User_Status	varchar(10)	Not null	æ— 	ç™»å½•çŠ¶æ€
 
 
     public User() {

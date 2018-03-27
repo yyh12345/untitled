@@ -4,39 +4,39 @@ import java.sql.Date;
 
 public class model {
 
-    private String cname;               //¿Í»§Ãû³Æ
-    private String crank;                   //¿Í»§¼¶±ğ
-    private String did;                       //¿îºÅ
-    private String style;                   //¿îÊ½
-    private String sdetailed;           //¿îÊ½Ï¸·Ö
-    private int  quantity;                        //Éú²úÊıÁ¿
-    private  double iE_Price;                //IE¹¤¼Û
-    private double   facdirector;	      //	³§³¤È·ÈÏÏµÊı
-    private double  cdirector;	              //	¿Í»§ÏµÊı
-    private double strdirector	;         //	ÊıÁ¿½á¹¹ÏµÊı
-    private double coefficient;                //	¼ÓÏµÊı¹¤¼Û
-    private String tname;           //Éú²ú°à×éĞ¡×éÃû³Æ
-    private double teamnumber;     //	Ğ¡×éÈËÊı
-    private Date online;                             //  ÉÏÏßÊ±¼ä
-    private Date offline;                       //ÏÂÏßÊ±¼ä
-    private  double days;                    //	Éú²úÌìÊı
-    private double perdaily;                    //	ÈË¾ùÈÕ²úÁ¿
-    private double avedaily;	                 //ÎŞ	Æ½¾ùÈÕ²úÁ¿
-    private double  adddaily;                  //	¼ÓÏµÊı·ÖÎöÈÕ²úÁ¿
-    private double  anadaily;                   	//	·ÖÎöÈÕ²úÁ¿
-    private double partime;	            //·ÖÎöÊ±¼ä
-    private int pltime;                                  //	ÎŞ	¼ÓÏµÊı·ÖÎöÊ±¼ä
-    private double  videotime;         //ÊÓÆµÊ±¼ä
-    private int timecons;                           //	Êµ¼ÊÃ¿¿îºÄÊ±
-    private double coereality;          //¼ÓÏµÊıÊµ¼Ê²úÁ¿´ï³ÉÂÊ
-    private double uninyield;           //Î´¼ÓÏµÊı²úÁ¿´ï³ÉÂÊ
-    private double coetarget;           //¼ÓÏµÊı²úÁ¿Ä¿±ê´ï³ÉÂÊ
-    private int nocoeanalysis;	            //¸÷¿îÎ´¼ÓÏµÊı·ÖÎö×ÜÊ±¼ä
-    private int addcoeanalysis;                 	//¸÷¿î¼ÓÏµÊı·ÖÎö×ÜÊ±¼ä
-    private int acproducttime;                      //¸÷¿îÊµ¼ÊÉú²ú×ÜÊ±¼ä
-    private double timecomrate;	            //Ê±¼ä´ï³ÉÂÊ
-    private double totalwages ;             //	ºÏ¼Æ¹¤×Ê
-    private double avesalary;		       //Æ½¾ù¹¤×Ê
+    private String cname;               //å®¢æˆ·åç§°
+    private String crank;                   //å®¢æˆ·çº§åˆ«
+    private String did;                       //æ¬¾å·
+    private String style;                   //æ¬¾å¼
+    private String sdetailed;           //æ¬¾å¼ç»†åˆ†
+    private int  quantity;                        //ç”Ÿäº§æ•°é‡
+    private  double iE_Price;                //IEå·¥ä»·
+    private double   facdirector;	      //	å‚é•¿ç¡®è®¤ç³»æ•°
+    private double  cdirector;	              //	å®¢æˆ·ç³»æ•°
+    private double strdirector	;         //	æ•°é‡ç»“æ„ç³»æ•°
+    private double coefficient;                //	åŠ ç³»æ•°å·¥ä»·
+    private String tname;           //ç”Ÿäº§ç­ç»„å°ç»„åç§°
+    private double teamnumber;     //	å°ç»„äººæ•°
+    private Date online;                             //  ä¸Šçº¿æ—¶é—´
+    private Date offline;                       //ä¸‹çº¿æ—¶é—´
+    private  double days;                    //	ç”Ÿäº§å¤©æ•°
+    private double perdaily;                    //	äººå‡æ—¥äº§é‡
+    private double avedaily;	                 //æ— 	å¹³å‡æ—¥äº§é‡
+    private double  adddaily;                  //	åŠ ç³»æ•°åˆ†ææ—¥äº§é‡
+    private double  anadaily;                   	//	åˆ†ææ—¥äº§é‡
+    private double partime;	            //åˆ†ææ—¶é—´
+    private int pltime;                                  //	æ— 	åŠ ç³»æ•°åˆ†ææ—¶é—´
+    private double  videotime;         //è§†é¢‘æ—¶é—´
+    private int timecons;                           //	å®é™…æ¯æ¬¾è€—æ—¶
+    private double coereality;          //åŠ ç³»æ•°å®é™…äº§é‡è¾¾æˆç‡
+    private double uninyield;           //æœªåŠ ç³»æ•°äº§é‡è¾¾æˆç‡
+    private double coetarget;           //åŠ ç³»æ•°äº§é‡ç›®æ ‡è¾¾æˆç‡
+    private int nocoeanalysis;	            //å„æ¬¾æœªåŠ ç³»æ•°åˆ†ææ€»æ—¶é—´
+    private int addcoeanalysis;                 	//å„æ¬¾åŠ ç³»æ•°åˆ†ææ€»æ—¶é—´
+    private int acproducttime;                      //å„æ¬¾å®é™…ç”Ÿäº§æ€»æ—¶é—´
+    private double timecomrate;	            //æ—¶é—´è¾¾æˆç‡
+    private double totalwages ;             //	åˆè®¡å·¥èµ„
+    private double avesalary;		       //å¹³å‡å·¥èµ„
 
     public model() {
     }
