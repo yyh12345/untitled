@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>身份认证</title>
+    <link rel="stylesheet" type="text/css" href="div.css">
+</head>
+<style type="text/css">
+    body{
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-right: 100px;
+       background-image: url("image/背景.jpg");
+    }
+    .div1{
+        margin-left: 110px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+    .div2{
+        margin-left: 110px;
+        margin-top: 60px;
+        padding-left: 50px;
+        padding-bottom:  50px;
+        float:left ;
+
+    }
+    input{margin:10px 10px 10px 10px;}
+    /*td{
+    	padding-left:0cm
+    }*/
+</style>
+<body>
+    <div style="margin-right: auto;margin-left: auto;">
+        <img src="image/一衣相随.jpg" alt="一衣相随" align="center" border="0" width="100%" height="250">
+            <div class="div1"> <img src="image/连衣裙.jpg" border="10" width="400px" height="350px"></div>
+        <div class="div2">
+            <fieldset >
+                <form action="Servlet" method="post" >
+                    <table  width="310px" height="350px"  style="border-left: 0px" >
+                    	<tr>
+                            <td><img src="image/身份验证小图标.JPG" align="center" width="30" height="20" ""></td>
+                            <td align="center">身份验证</td>
+               
+                        </tr>
+                        
+                        <tr>
+                            <td><img src="image/帐号.JPG"  width="40" height="30"></td>
+                            <td><input style=" height="20px"  width="40"  "   type="text" name="id" value=""/></td>
+                        </tr>
+                        <tr>
+                            <td><img src="image/密码.JPG" width="40" height="30"></td>
+                            <td>
+                                <input  style="height= "20px"  width="40" " type="password" name="password" value="" />
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td></td>
+                        	<td><input style="margin-left: calc()" align="center" type="submit" width="10" value="登  录" size="4"/></td>
+							
+						</tr>
+                    </table>
+                </form>
+            </fieldset>
+        </div>
+
+    </div>
+</body>
+</html>
+
