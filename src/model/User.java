@@ -11,7 +11,7 @@ public class User {
     private String password;        //密码
     private Date time;                  //注册时间
     private String name;              //昵称
-    private String status;              //登录状态
+    private boolean status;              //登录状态
 
 //    User_Id	varchar(10)	Not null	主键	账号
 //    User_Grade	tinyint(3)	Not null	外键	权限等级
@@ -19,67 +19,61 @@ public class User {
 //    Time datetime	Not null	无	注册时间
 //    User_Name	varchar(10)	Null	无	昵称
 //    User_Status	varchar(10)	Not null	无	登录状态
-
-
-    public User() {
-
-    }
-
-    public User(int grade) {
-        this.grade = grade;
-    }
-
     public String getId() {
         return id;
     }
 
-    public User setId(String id) {
+    public void setId(String id) {
         this.id = id;
-        return this;
     }
 
     public int getGrade() {
         return grade;
     }
 
-    public User setGrade(int grade) {
+    public void setGrade(int grade) {
         this.grade = grade;
-        return this;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public User setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
-        return this;
     }
 
     public Date getTime() {
         return time;
     }
 
-    public User setTime(Date time) {
+    public void setTime(Date time) {
         this.time = time;
-        return this;
     }
 
     public String getName() {
         return name;
     }
 
-    public User setName(String name) {
+    public void setName(String name) {
         this.name = name;
-        return this;
     }
 
-    public String getStatus() {
+    public boolean getStatus() {
         return status;
     }
 
-    public User setStatus(String status) {
+    public void setStatus(boolean status) {
         this.status = status;
-        return this;
+    }
+
+
+
+    public User(String id, int grade, String password, String name, boolean status) {
+        this.id = id;
+        this.grade = grade;
+        this.password = password;
+        this.name = name;
+        this.status = status;
     }
 }
